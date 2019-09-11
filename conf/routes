@@ -6,4 +6,6 @@
 # An example controller showing a sample home page
 GET     /                           controllers.TemperaturesController.index
 
-      
+GET     /temps                      controllers.TemperaturesController.getTemps
+
+POST    /temps                      controllers.TemperaturesController.storeTemp

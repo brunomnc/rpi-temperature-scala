@@ -15,8 +15,7 @@ libraryDependencies ++= Seq( ehcache , ws , specs2 % Test , guice )
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-nop" % "1.7.10",
   "com.h2database" % "h2" % "1.4.187",
-  "com.typesafe.play" %% "play-slick" % "3.0.0",
-  "com.typesafe.play" %% "play-slick-evolutions" % "3.0.0"
+  "com.typesafe.play" %% "play-slick" % "3.0.0"
 )
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
